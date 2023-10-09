@@ -1,0 +1,92 @@
+*{
+  background-color: black;
+  color: white;
+  padding: 0;
+}
+body{
+  font-family: Arial;
+}
+
+h1{
+  font-size: calc(1.375rem + 1.5vw);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.choose-game{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}     
+.game-swwitch-popular{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.game-swwitch-All{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.sub-title{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  top: 10px;
+}
+
+.game-box {
+  background-color: black;
+  border: 1px solid black;
+  padding: 20px;
+  margin-bottom: 20px;
+  position: relative;
+}
+
+.game-box img {
+  max-width: 100%;
+  height: auto;
+}
+.game-image{
+  height: auto;
+  top: 0;
+  left:0;
+  box-sizing: border-box;
+}
+h3{
+  margin-top: 20px
+}
+.about{
+  margin-bottom: 40px;
+}
+footer{
+  bottom: 0;
+  background-color: black;
+  color: white;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+}
+.top{
+  display: flex;
+  justify-content: flex-start;
+  list-style: none;
+}
+.top li{
+  margin-left: 0px;
+  margin-right: 10px;
+}
+.content li{
+  margin-bottom: 10px;
+  list-style: none;
+}
+.col li{
+  margin-bottom: 10px;
+}
